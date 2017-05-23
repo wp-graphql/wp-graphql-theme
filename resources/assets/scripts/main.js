@@ -1,6 +1,5 @@
 /** import external dependencies */
 import 'jquery';
-import 'bootstrap';
 
 /** import local dependencies */
 import Router from './util/Router';
