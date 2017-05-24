@@ -1,0 +1,35 @@
+article.post {
+	padding: 2.5em 0;
+	max-width: 680px;
+	margin: 0 auto;
+
+	header {
+		text-align: center;
+
+		h1 {
+			margin: 0 0 0.5em;
+		}
+	}
+
+	.byline {
+		font-size: 1em;
+		margin: 0;
+	}
+
+	h2 {
+		margin: 2em 0 1em;
+	}
+
+	img {
+	    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+	    border-radius: 4px;
+	}
+
+	footer {
+		background: transparent;
+		border-bottom: 1px solid #ccc;
+		height: 10px;
+		margin: 0.75em 0;
+		padding-bottom: 0.75em;
+	}
+}

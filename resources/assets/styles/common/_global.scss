@@ -2,9 +2,13 @@
 	font-family: 'Khula', sans-serif;
 }
 
-p {
+p, ul {
 	font-size: 1.4em;
 	line-height: 1.6em;
+}
+
+ul {
+	margin: 2em 0;
 }
 
 .wrap {
@@ -13,6 +17,10 @@ p {
 
 .content {
 	max-width: 1000px;
-	margin: 4em auto;
+	margin: 0 auto;
 	padding: 0 2em;
+}
+
+a {
+	color: #2777c1;
 }
