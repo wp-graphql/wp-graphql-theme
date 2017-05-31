@@ -4,11 +4,13 @@ Theme based off of Sage 9.
 
 Since WP Engine doesn't allow root access, you currently need to compile the blade views locally and then upload them via SFTP. Lame.
 
-1.) `cd wp-content/themes/wp-graphql && yarn run build:production`
-2.) SSH into the Local by Flywheel machine
-3.) `cd app/public && wp blade compile`, then exit.
-4.) Copy the `dist` and `resources` folder via SFTP to wp-content/themes/wp-graphql
-5.) Copy the contents of the local `uploads/cache/compiled` folder to the remote location
+- 1.) `cd wp-content/themes/wp-graphql && yarn run build:production`
+- 2.) SSH into the Local by Flywheel machine
+- 3.) `cd app/public`
+-- 3.1.) If `blade-generate` isn't installed, install it with `wp package install git@github.com:alwaysblank/blade-generate.git`
+- 4. ) `wp blade compile`, then exit.
+- 5.) Copy the `dist` and `resources` folder via SFTP to `wp-content/themes/wp-graphql`
+- 6.) Copy the contents of the local `uploads/cache/compiled` folder to the same remote location
 
 ## Theme structure
 
