@@ -7,7 +7,7 @@ Since WP Engine doesn't allow root access, you currently need to compile the bla
 - 1.) `cd wp-content/themes/wp-graphql && yarn run build:production`
 - 2.) SSH into the Local by Flywheel machine
 - 3.) `cd app/public`
--- 3.1.) If `blade-generate` isn't installed, install it with `wp package install git@github.com:alwaysblank/blade-generate.git`
+- 3.1.) If `blade-generate` isn't installed, install it with `wp package install git@github.com:alwaysblank/blade-generate.git`
 - 4. ) `wp blade compile`, then exit.
 - 5.) Copy the `dist` and `resources` folder via SFTP to `wp-content/themes/wp-graphql`
 - 6.) Copy the contents of the local `uploads/cache/compiled` folder to the same remote location
